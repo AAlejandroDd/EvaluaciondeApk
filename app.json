@@ -4,7 +4,7 @@
     "slug": "EvaluacionAPk",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/Rick.jpg",
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true
@@ -15,10 +15,16 @@
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
-      }
+      },
+      "package": "com.aalejandrodd.EvaluacionAPk"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f2478f74-6eaa-42b7-a1f1-692080142e37"
+      }
     }
   }
 }
